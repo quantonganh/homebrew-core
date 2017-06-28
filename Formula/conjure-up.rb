@@ -3,8 +3,8 @@ class ConjureUp < Formula
 
   desc "Big software deployments so easy it's almost magical."
   homepage "https://conjure-up.io/"
-  url "https://github.com/conjure-up/conjure-up/archive/2.1.5.tar.gz"
-  sha256 "df8278ffca2eab81bf02e6fe422e283baaee52b01e8a7b3bad1ca91ffa691af0"
+  url "https://github.com/conjure-up/conjure-up/archive/2.2.2.tar.gz"
+  sha256 "a5064f4f86fc302acb33846c78a27a113f161235b5636aded5c790216eb21ab1"
   head "https://github.com/conjure-up/conjure-up.git", :branch => "master"
 
   bottle do
@@ -15,9 +15,9 @@ class ConjureUp < Formula
   end
 
   devel do
-    url "https://github.com/conjure-up/conjure-up/archive/2.2.0-beta2.tar.gz"
-    version "2.2-beta2"
-    sha256 "82f41e8a41efdcc49644dc8d2069b787b413ee1845c1ec944494d85f1ff37265"
+    url "https://github.com/conjure-up/conjure-up/archive/2.2.0-beta4.tar.gz"
+    version "2.2-beta4"
+    sha256 "6d14a24c7b6119e984d241dcd0b935d9f43f3a7dabbe911a5e9c0029061b89db"
   end
 
   depends_on :python3
